@@ -1,0 +1,83 @@
+.v-chrome
+{
+  position: relative;
+  z-index: 2;
+  margin: 3px;
+}
+
+.v-chrome-bd
+{
+  padding: 12px;
+}
+
+.v-chrome .bgnd
+{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.v-chrome .bgnd *
+{
+  position: absolute;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.v-chrome .bgnd span[class=uw]
+{
+  left: 0;
+  top: 0;
+  right: 40px;
+  height: 60px;
+}
+
+.v-chrome .bgnd span[class=ue]
+{
+  top: 0;
+  right: 0;
+  height: 60px;
+  width: 40px;
+  background-position: -960px 0;
+}
+
+.v-chrome .bgnd span[class=iw]
+{
+  left: 0;
+  top: 60px;
+  right: 40px;
+  bottom: 40px;
+  background-repeat: repeat-y;
+  background-position: -1000px 0;
+}
+
+.v-chrome .bgnd span[class=ie]
+{
+  top: 60px;
+  right: 0px;
+  width: 40px;
+  bottom: 40px;
+  background-repeat: repeat-y;
+  background-position: 100% 0;
+}
+
+.v-chrome .bgnd span[class=bw]
+{
+  left: 0;
+  bottom: 0;
+  right: 40px;
+  height: 40px;
+  background-position: 0 100%;
+}
+
+.v-chrome .bgnd span[class=be]
+{
+  height: 40px;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  background-position: -960px 100%;
+}

@@ -1,0 +1,147 @@
+h1.site-title
+{
+  font-family: 'Calisto MT', Georgia, 'Times New Roman', serif;
+  font-size: large;
+  font-weight: normal;
+  float: right;
+  margin-top: 15px;
+  margin-right: 36px;
+  width: 90%;
+  text-align: right;
+  color: white;
+}
+
+h1 > span[class=site-name]
+{
+  font-weight: bold;
+  font-size: larger;
+}
+
+h3
+{
+  float: right;
+  font-family: 'Calisto MT', Georgia, 'Times New Roman', serif;
+  font-size: small;
+  text-align: right;
+  margin-top: 0px;
+  margin-right: 45px;
+  margin-bottom: 20px;
+}
+
+body
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Calisto MT', Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  background: #cbc98e 0 60px repeat-x;
+  text-align: center;
+  color: white;
+}
+
+#topnav
+{
+  clear: both;
+  text-align: center;
+  padding: 30px 25px 25px 75px;
+}
+
+#topnav > a
+{
+  margin: 5px;
+  padding: 5px;
+  background-color: #8FA0CC;
+}
+
+a
+{
+  color: white;
+  text-decoration: none;
+}
+
+a:visited
+{
+  text-decoration: none;
+}
+
+a:hover
+{
+  background-color: #2144AC;
+  text-decoration: underline;
+}
+
+#topnav a
+{
+  padding: 0 10px;
+}
+
+#page
+{
+  width: 90%;
+  max-width: 760px;
+  min-width: 100px;
+  margin: auto;
+  text-align: left;
+}
+
+#content
+{
+  padding: 10px 10px 30px 10px;
+  color: white;
+}
+
+/* this rule mimics a html paragraph tag but gets around the blinddown/up hiccup */
+.para
+{
+  margin-top: 20px;
+}
+
+#shannon
+{
+  float: left;
+  background: url('/images/shannon.jpg');
+  width: 202px;
+  height: 271px;
+  margin: 10px 25px 25px 10px;
+}
+
+#shannon3
+{
+  float: right;
+  background: url('/images/shannon3.jpg');
+  width: 173px;
+  height: 179px;
+  margin: 10px 10px 25px 25px;
+}
+
+#validator
+{
+  text-align: right;
+  font-family: Arial;
+  font-size: 75%;
+}
+
+.page-title
+{
+  text-align: center;
+  font-weight: bold;	
+}
+
+#footer
+{
+  text-align: right;
+  padding-right: 60px;
+}
+
+.footer-title
+{
+  font-family: 'Calisto MT', Georgia, 'Times New Roman', serif;
+  font-size: medium;
+  font-weight: normal;
+  margin-top: -15px;
+  width: 95%;
+  text-align: right;
+  color: white;
+}

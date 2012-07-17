@@ -1,0 +1,35 @@
+
+.v-chrome-bd
+{
+  color: #222;
+  padding: 50px 40px 20px 40px;
+}
+
+.v-chrome .bgnd *
+{
+  background-image: url(../images/darktan_dialog.png);
+}
+
+.v-chrome .bgnd span[class=iw]
+{
+  bottom: 60px;
+}
+
+.v-chrome .bgnd span[class=ie]
+{
+  bottom: 60px;
+}
+
+.v-chrome .bgnd span[class=bw]
+{
+  right: 100px;
+  height: 60px;
+}
+
+.v-chrome .bgnd span[class=be]
+{
+  width: 100px;
+  height: 60px;
+  background-position: -900px 100%;
+}
+
