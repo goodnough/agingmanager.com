@@ -119,3 +119,7 @@ a:hover, #topnav > a:hover
   text-align: right;
   color: white;
 }
+
+#contact > * {
+  width: 100%;
+}
