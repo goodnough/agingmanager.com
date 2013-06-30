@@ -1,6 +1,9 @@
+* {
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
 h1.site-title
 {
-  font-family: 'Calisto MT', Georgia, 'Times New Roman', serif;
   font-size: large;
   font-weight: normal;
   float: right;
@@ -20,8 +23,6 @@ h1 > span[class=site-name]
 h3
 {
   float: right;
-  font-family: 'Calisto MT', Georgia, 'Times New Roman', serif;
-  font-size: small;
   text-align: right;
   margin-top: 0px;
   margin-right: 45px;
@@ -32,9 +33,6 @@ body
 {
   margin: 0px;
   padding: 0px;
-  font-family: 'Calisto MT', Georgia, 'Times New Roman', serif;
-  font-style: italic;
-  font-weight: bold;
   text-align: center;
   background: #cbc98e 0 60px repeat-x;
   text-align: center;
@@ -48,32 +46,22 @@ body
   padding: 30px 25px 25px 75px;
 }
 
+a
+{
+  color: white;
+}
+
+a:hover, #topnav > a:hover
+{
+  background-color: #2144AC;
+}
+
 #topnav > a
 {
   margin: 5px;
   padding: 5px;
   background-color: #8FA0CC;
-}
-
-a
-{
-  color: white;
-  text-decoration: none;
-}
-
-a:visited
-{
-  text-decoration: none;
-}
-
-a:hover
-{
-  background-color: #2144AC;
-  text-decoration: underline;
-}
-
-#topnav a
-{
+  border-radius: 10px;
   padding: 0 10px;
 }
 
@@ -116,28 +104,14 @@ a:hover
   margin: 10px 10px 25px 25px;
 }
 
-#validator
-{
-  text-align: right;
-  font-family: Arial;
-  font-size: 75%;
-}
-
 .page-title
 {
   text-align: center;
-  font-weight: bold;	
-}
-
-#footer
-{
-  text-align: right;
-  padding-right: 60px;
+  font-weight: bold;
 }
 
 .footer-title
 {
-  font-family: 'Calisto MT', Georgia, 'Times New Roman', serif;
   font-size: medium;
   font-weight: normal;
   margin-top: -15px;
