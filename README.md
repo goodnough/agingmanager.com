@@ -1,4 +1,4 @@
 goodnough.github.com
 ====================
 
-For Shannon
+This is Shannon's aging manager site.
